@@ -8,6 +8,10 @@ export default {
     extend: {
       fontFamily:{
         sans:['Robotto', 'sans-serif' ]
+      },
+      colors:{
+        primeColor: "#ffd60a",
+        secondColor: "#202020"
       }
     },
   },
