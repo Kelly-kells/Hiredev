@@ -11,8 +11,13 @@ export default {
       },
       colors:{
         primeColor: "#ffd60a",
-        secondColor: "#202020"
-      }
+        secondColor: "#202020",
+        cardColor:  "#fffffc"
+      },
+      container: {
+        center: true,
+        padding: "2rem"
+      },
     },
   },
   plugins: [],
