@@ -12,7 +12,7 @@ const Navbar = () => {
     setOpen(!open)
   }
   return (
-    <nav className=" bg-primeColor text-secondColor relative border-b-2 border-solid border-secondColor">
+    <nav className=" bg-primeColor text-white relative border-b-2 border-solid border-secondColor">
 
 
       <ul className="rounded-sm shadow-sm  md:shadow-none  " >

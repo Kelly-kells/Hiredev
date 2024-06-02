@@ -10,13 +10,13 @@ export default {
         sans:['Robotto', 'sans-serif' ]
       },
       colors:{
-        primeColor: "#ffd60a",
-        secondColor: "#202020",
-        cardColor:  "#fffffc"
+        primeColor: "#03045e",
+        secondColor: "#00b4d8",
+        cardColor:  "#edf6f9"
       },
       container: {
         center: true,
-        padding: "2rem"
+        padding: "1rem"
       },
     },
   },
