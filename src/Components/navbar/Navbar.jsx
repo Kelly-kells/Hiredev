@@ -17,7 +17,7 @@ const Navbar = () => {
 
       <ul className="rounded-sm shadow-sm  md:shadow-none  " >
         <button className="md:hidden justify-end" onClick={toggleMenu} >
-          <GiHamburgerMenu />
+          <GiHamburgerMenu size={30} />
 
         </button>
 
