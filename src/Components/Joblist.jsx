@@ -1,6 +1,6 @@
 
 import React, { useState } from 'react'
-import { FaLocationDot } from "react-icons/fa6";
+import { FaMapMarker } from "react-icons/fa";
 const Joblist = ({ job }) => {
   const [fullDescription, setFullDescription] = useState(false)
 
@@ -24,6 +24,7 @@ const Joblist = ({ job }) => {
         <div className='mb-5'>
           {description}
         </div>
+         <button onClick={() => setFullDescription((prevState)=>!prevState)} className="text-secondColor mb-5 hover:text-primeColor" >{ fullDescription ? 'less' : 'more'}</button>
 
         <h3 className=' text-secondColor mb-2'>{job.salary}</h3>
       </div>
@@ -31,8 +32,8 @@ const Joblist = ({ job }) => {
       </div>
       <div className='flex flex-col lg:flex-row justify-between mb-4'>
 
-        <div className=" text-red-500 flex p-4 gap-4">
-          <FaLocationDot />  {job.location}
+        <div className=" text-red-500 flex p-4 gap-2">
+        <FaMapMarker /> {job.location}
 
         </div>
         <button className='text-center bg-secondColor md:mr-4 w-full md:w-28 md:h-10  rounded-md text-white '> <a href={`/job/${job.id}`}> Read more</a></button>
